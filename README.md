@@ -1,2 +1,0 @@
-# SimpleTicketService
-Ticket Service 
