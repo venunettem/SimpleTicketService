@@ -30,6 +30,11 @@ public class TicketApp {
 				System.out.println("Enter 2 for Hold & Reserve");
 				System.out.println("testing 90 SVN");
 				System.out.println("testing 37 SVN");
+				int i=1;
+				while(i<10)
+				{
+					i++;
+				}
 			
 				
 				int option = scanner.nextInt();
