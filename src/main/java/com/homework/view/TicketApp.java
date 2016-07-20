@@ -29,16 +29,6 @@ public class TicketApp {
 				System.out.println("Enter 1 for Seat Availabilty");
 				System.out.println("Enter 2 for Hold & Reserve");
 				
-				for(int i=0;i<10;i++)
-				{
-					
-				}
-				int i=1;
-				while(i<10)
-				{
-					i++;
-				}
-			
 				
 				int option = scanner.nextInt();
 				if (option == 1) {
@@ -71,8 +61,7 @@ public class TicketApp {
 					}
 
 					System.out.print("\nPlease enter 1 to reserve the seats held \n");
-					System.out.println("testing 399 SVN");
-					System.out.println("testing 3 SVN");
+					
 					if (scanner.nextInt() == 1) {
 						System.out.println(ticket.reserveSeats(seatHold.getId(), email));
 					} else {
