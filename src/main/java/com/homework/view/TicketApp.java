@@ -63,6 +63,7 @@ public class TicketApp {
 					}
 
 					System.out.print("\nPlease enter 1 to reserve the seats held \n");
+					System.out.println("testing 399 SVN");
 					if (scanner.nextInt() == 1) {
 						System.out.println(ticket.reserveSeats(seatHold.getId(), email));
 					} else {
