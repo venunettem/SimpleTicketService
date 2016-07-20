@@ -28,7 +28,7 @@ public class TicketApp {
 				System.out.println("Choose an option to reserve and hold seats");
 				System.out.println("Enter 1 for Seat Availabilty");
 				System.out.println("Enter 2 for Hold & Reserve");
-				System.out.println("testing 37878 SVN");
+				
 				for(int i=0;i<10;i++)
 				{
 					
