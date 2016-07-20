@@ -25,9 +25,10 @@ public class TicketApp {
 			Scanner scanner = new Scanner(System.in);
 			while (options) {
 				
-				System.out.println("Choose an option");
+				System.out.println("Choose an option to reserve and hold seats");
 				System.out.println("Enter 1 for Seat Availabilty");
 				System.out.println("Enter 2 for Hold & Reserve");
+				System.out.println("testing SVN");
 				
 				int option = scanner.nextInt();
 				if (option == 1) {
