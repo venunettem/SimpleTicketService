@@ -28,8 +28,11 @@ public class TicketApp {
 				System.out.println("Choose an option to reserve and hold seats");
 				System.out.println("Enter 1 for Seat Availabilty");
 				System.out.println("Enter 2 for Hold & Reserve");
-				System.out.println("testing 90 SVN");
-				System.out.println("testing 37 SVN");
+				System.out.println("testing 37878 SVN");
+				for(int i=0;i<10;i++)
+				{
+					
+				}
 				int i=1;
 				while(i<10)
 				{
@@ -69,6 +72,7 @@ public class TicketApp {
 
 					System.out.print("\nPlease enter 1 to reserve the seats held \n");
 					System.out.println("testing 399 SVN");
+					System.out.println("testing 3 SVN");
 					if (scanner.nextInt() == 1) {
 						System.out.println(ticket.reserveSeats(seatHold.getId(), email));
 					} else {
