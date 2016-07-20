@@ -30,6 +30,7 @@ public class TicketApp {
 				System.out.println("Enter 2 for Hold & Reserve");
 				System.out.println("testing SVN");
 				System.out.println("testing 3 SVN");
+				System.out.println("testing 2 SVN");
 				
 				int option = scanner.nextInt();
 				if (option == 1) {
